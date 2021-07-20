@@ -28,7 +28,7 @@ export class Provider extends Component {
                 this.setState({ track_list: res.data.message.body.track_list })
             })
             .catch(err => {
-                console.log("Visit this site");
+                console.log("if you are getting any error , Visit this site");
                 console.log("https://cors-anywhere.herokuapp.com/corsdemo");
                 console.log(err)
             })
