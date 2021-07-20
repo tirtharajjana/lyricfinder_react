@@ -14,7 +14,10 @@ export class Provider extends Component {
                 // console.log(res.data.message.body.track_list);
                 this.setState({track_list:res.data.message.body.track_list})
             })
-            .catch(err => console.log(err))
+            .catch(err =>{
+                console.log("Visit this site");
+                console.log("https://cors-anywhere.herokuapp.com/corsdemo");
+                console.log(err)})
     }
 
     render() {
